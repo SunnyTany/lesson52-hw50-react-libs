@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mw600 {
+  max-width: 600px;
+}
+
+p {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+input {
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.card-btn {
+  width: 100%;
+}
+
+.color-green {
+  color: green;
+}
+
+.container-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  margin: 0 auto;
+}
+
+.item {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.nav-link {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 3px;
+  border-bottom: 2px solid transparent;
+  transition: all .3s ease-in-out;
+  color: #093b42;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #093b42;
+}
+
+.nav-link:hover {
+  border-color: #093b42;
+}
+
+.modal {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #093b42;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal button {
+  width: 150px;
+  height: 70px;
+  color: #fff;
+  background-color: #093b42;
+}
+
+.form, .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-top: 30px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.form input {
+  margin-bottom: 5px;
+}
+
+.title-error-page {
+  color: #5c9fa8;
+}
+
+.image-error-page {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.text-error-page {
+  color: #225860;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.link-error-page {
+  display: block;
+  padding: 25px;
+  border: 2px solid #225860;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #225860;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all .4s ease-in-out;
+}
+
+.link-error-page:hover {
+  color: #225860;
+  background-color: #fff;
+}
