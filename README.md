@@ -9,4 +9,4 @@
 
  - CreditCard: анімація заповнення данних картки користувача виконана  за допомогою бібліотеки react-credit-cards-2
 
-- [проект на Vercel]([https://lesson52-hw50-react-libs-4axn.vercel.app/]) 
+- [проект на Vercel](https://lesson52-hw50-react-libs-4axn.vercel.app/) 
